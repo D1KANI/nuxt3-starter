@@ -1,0 +1,13 @@
+{
+  // Форматирование кода с помощью prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Форматирование при сохранении файла
+  "editor.formatOnSave": true,
+
+  // Проверка орфографии с помощью Code Spell Checker
+  "cSpell.language": "en,ru",
+
+  // Дополнительный словарь для Code Spell Checker
+  "cSpell.words": ["stylelint", "Nuxt"]
+}

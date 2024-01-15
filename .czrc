@@ -1,0 +1,111 @@
+{
+  "path": "./node_modules/commitizen-emoji",
+  "config": {
+    "commitizenEmoji": {
+      "types": [
+        {
+          "emoji": "✨ ",
+          "code": ":sparkles:",
+          "description": "Добавлена фича",
+          "name": "FEATURE"
+        },
+        {
+          "emoji": "🐛 ",
+          "code": ":bug:",
+          "description": "Исправлен баг",
+          "name": "FIX"
+        },
+        {
+          "emoji": "🚀 ",
+          "code": ":rocket:",
+          "description": "Обновлен компонент",
+          "name": "UPDATE"
+        },
+        {
+          "emoji": "🏗️  ",
+          "code": ":building_construction:",
+          "description": "Переработан код",
+          "name": "REFACTOR"
+        },
+        {
+          "emoji": "🚑 ",
+          "code": ":ambulance:",
+          "description": "Критический hotfix",
+          "name": "HOTFIX"
+        },
+        {
+          "emoji": "💬 ",
+          "code": ":speech_balloon:",
+          "description": "Копирайт",
+          "name": "COPYRIGHT"
+        },
+        {
+          "emoji": "🏷️  ",
+          "code": ":label:",
+          "description": "Исправлена опечатка",
+          "name": "TYPO"
+        },
+        {
+          "emoji": "📦️ ",
+          "code": ":package:",
+          "description": "Добавлены пакеты",
+          "name": "PACKAGE"
+        },
+        {
+          "emoji": "🍱 ",
+          "code": ":bento:",
+          "description": "Обновлены ассеты",
+          "name": "ASSETS"
+        },
+        {
+          "emoji": "📱 ",
+          "code": ":iphone:",
+          "description": "Адаптивы",
+          "name": "ADAPTIVE"
+        },
+        {
+          "emoji": "🔍 ",
+          "code": ":mag:",
+          "description": "Работа над SEO.",
+          "name": "SEO"
+        },
+        {
+          "emoji": "🔧 ",
+          "code": ":wrench:",
+          "description": "Конфигурация",
+          "name": "CONFIG"
+        },
+        {
+          "emoji": "🚨 ",
+          "code": ":rotating_light:",
+          "description": "Покрытие тестами",
+          "name": "TESTS"
+        },
+        {
+          "emoji": "📝 ",
+          "code": ":memo:",
+          "description": "Написание документации",
+          "name": "DOCS"
+        },
+        {
+          "emoji": "📄 ",
+          "code": ":page_facing_up:",
+          "description": "Исправлены ошибки линтера",
+          "name": "LINTFIX"
+        }
+      ],
+      "skipQuestions": [
+        "scope",
+        "breakingBody",
+        "issues"
+      ],
+      "questions": {
+        "type": "Тип изменений:",
+        "subject": "Краткое описание коммита:",
+        "body": "Полное описание изменений (опционально):"
+      },
+      "replaceTypes": true,
+      "conventionalFormat": true
+    }
+  }
+}

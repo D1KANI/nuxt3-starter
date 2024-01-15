@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "stylelint-config-html",
+    "stylelint-config-standard-scss",
+    "stylelint-config-recommended-vue",
+    "stylelint-config-recess-order",
+    "stylelint-config-css-modules"
+  ],
+  "rules": {
+    "color-hex-length": "long",
+    "at-rule-no-unknown": null,
+    "scss/dollar-variable-empty-line-before": null,
+    "selector-id-pattern": null,
+    "value-keyword-case": null,
+    "shorthand-property-no-redundant-values": null,
+    "selector-pseudo-class-no-unknown": [
+      true,
+      { "ignorePseudoClasses": ["deep"] }
+    ],
+    "function-no-unknown": [true, { "ignoreFunctions": ["v-bind", "unquote"] }],
+    "declaration-empty-line-before": null,
+    "scss/no-global-function-names": null,
+    "no-descending-specificity": null
+  }
+}
