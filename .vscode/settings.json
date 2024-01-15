@@ -1,7 +1,4 @@
 {
-  // Форматирование кода с помощью prettier
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-
   // Форматирование при сохранении файла
   "editor.formatOnSave": true,
 
@@ -9,5 +6,12 @@
   "cSpell.language": "en,ru",
 
   // Дополнительный словарь для Code Spell Checker
-  "cSpell.words": ["stylelint", "Nuxt"]
+  "cSpell.words": ["stylelint", "Nuxt"],
+
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Форматирование кода с помощью prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
