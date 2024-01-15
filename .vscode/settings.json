@@ -13,5 +13,6 @@
   },
 
   // Форматирование кода с помощью prettier
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "json.validate.enable": false
 }
