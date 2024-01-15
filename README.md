@@ -67,5 +67,3 @@ git cz
 3. We enjoy coding
 
 4. if you like this template, fork repository and follow [me](https://github.com/D1KANI)
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
