@@ -1,23 +1,17 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Starter Template by DIKANI
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Documentation for Nuxt 3
+
+[Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
 
-# pnpm
-pnpm install
-
-# yarn
 yarn install
 
-# bun
-bun install
 ```
 
 ## Development Server
@@ -25,17 +19,9 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
 
-# pnpm
-pnpm run dev
-
-# yarn
 yarn dev
 
-# bun
-bun run dev
 ```
 
 ## Production
@@ -43,33 +29,43 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
 
-# pnpm
-pnpm run build
-
-# yarn
 yarn build
 
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
 
-# pnpm
-pnpm run preview
-
-# yarn
 yarn preview
 
-# bun
-bun run preview
 ```
+
+## Developers instruction
+
+1. We use commitizen
+
+You need global install for working
+
+```bash
+
+npm install commitizen -g
+
+```
+
+After when you need commit, write this and enjoy (Sorry for Russian language D: )
+
+```bash
+
+git cz
+
+```
+
+2. We use TypeScript only
+
+3. We enjoy coding
+
+4. if you like this template, fork repository and follow [me] (https://github.com/D1KANI)
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
